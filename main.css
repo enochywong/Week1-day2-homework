@@ -1,0 +1,149 @@
+body{
+    background-color: #FBFCFB;
+}
+
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+   
+}
+
+.container{
+    width: 25%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFCFB;
+    align-self: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 36%;
+    
+
+}
+
+.container > h1{
+    align-self: left;
+}
+
+.container a{
+    float: right;
+}
+
+.inputbox{
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 1px solid darkgrey;
+    border-radius: 3%;
+    font-size: medium; 
+}
+.ident{
+    text-indent: 1px;
+}
+
+form button{
+    border: 1px solid lightgrey;
+    width: 100%;
+    padding:2%;
+    border-radius: 3%;
+    font-size: small;
+    background-color: #f7c548;
+    
+}
+
+.hrright{
+    float: inline-end;
+}
+
+.hrleft{
+    float: inline-start;
+}
+
+.center{
+    text-align: center;
+}
+
+.line{
+    border-bottom: 1px solid grey;
+    width: 30%;
+    height: 1%;
+    vertical-align: right;
+    
+}
+
+.container2{
+    width: 25%;
+    border-style: none;
+    background-color: #FBFCFB;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 37%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+}
+
+.textvert{
+    vertical-align: super;
+    color:grey;
+}
+
+.container3{
+    width: 25%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FBFCFB;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFCFB;
+    align-self: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 36%;
+}
+.greybutton{
+    border: 1px solid lightgrey;
+    width: 100%;
+    padding:2%;
+    border-radius: 3%;
+    font-size: small;
+    background-color: #e7e9ec ;
+
+}
+.line2{
+    height: 1px;
+    background: black;
+}
+.container4{
+    width: 20%;
+    border-style: none;
+    background-color: #FBFCFB;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 39%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+    
+}
+.noline{
+    text-decoration: none;
+    font-size: small;
+}
+
+.copyright{
+    text-align: center;
+    font-size: small;
+}
